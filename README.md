@@ -6,10 +6,10 @@ Text summarization is the process of shortening a set of data computationally, t
 <img src="https://github.com/akmeraki/Text-summarization/blob/main/images/b9bf06f6.png">
 </p>
 
-# Dependencies 
+## Dependencies 
 
 
-# Table of Contents 
+## Table of Contents 
 
 
-# Folder Structure 
+## Folder Structure 
