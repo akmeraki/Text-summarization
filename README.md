@@ -12,7 +12,7 @@ This project requires **Python 3.8** and the following Python libraries installe
 
 - [HuggingFace](https://huggingface.co/)
 - [Transformers](https://huggingface.co/docs/transformers/installation)
-- [Transformers[sentencepiece]()
+- [Transformers][sentencepiece]()
 
 ### Table of Contents 
 
