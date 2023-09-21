@@ -3,6 +3,7 @@ import urllib.request as request
 import gdown
 import zipfile
 from pathlib import Path
+from textSummarizer.logging import logger
 from textSummarizer.entity import DataIngestionConfig
 from textSummarizer.utils.common import get_size
 
@@ -45,8 +46,6 @@ class DataIngestion:
             logger.info(f"file already exists of size: {get_size(Path(self.config.local_data_file))}")
 
         
-
-
     def extract_zip_file(self):
 
         """
