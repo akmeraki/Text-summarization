@@ -1,8 +1,14 @@
 artifacts_root: artifacts
 
 
-data ingestion: 
+data_ingestion: 
   root_dir: artifacts/data_ingestion
   source_URL: url = "https://drive.google.com/file/d/15SQdQy-TkE4A68e-hLX_4WOtzsOU7dMw/view?usp=sharing"
   local_data_file: artifacts/data_ingestion/data.zip
   unzip_dir: artifacts/data_ingestion
+
+data_validation:
+  root_dir: artifacts/data_validation
+  STATUS_FILE: artifacts/data_validation/status.txt
+  ALL_REQUIREMENT_FILES: ["train", "test", "validation"]
+
