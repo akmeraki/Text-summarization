@@ -29,6 +29,6 @@ This project requires **Python 3.8** and the following Python libraries installe
 │    └── Text_Summarizer_Pegasus.ipynb - research notebooks to Train,evaluate and test Text Summarizer Pegasus model. 
 |     └── data_ingestion.ipynb - research notebook for data ingestion 
 |     └── data_validation.ipynb - reserach notebook for data validation 
-|
 |── 
+|
 |
