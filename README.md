@@ -12,7 +12,10 @@ This project requires **Python 3.8** and the following Python libraries installe
 
 - [HuggingFace](https://huggingface.co/)
 - [Transformers](https://huggingface.co/docs/transformers/installation)
-- [Transformers][sentencepiece]()
+- [Transformers][sentencepiece](https://github.com/google/sentencepiece)
+- [sacrebleu](https://github.com/mjpost/sacrebleu)
+- [datasets](https://huggingface.co/docs/datasets/v1.15.1/tutorial.html)
+- [rouge_score](https://pypi.org/project/rouge-score/)
 
 ### Table of Contents 
 
