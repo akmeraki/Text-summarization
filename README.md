@@ -26,12 +26,12 @@ This project requires **Python 3.8** and the following Python libraries installe
 │    └── data_ingestion - contains the downloaded data files.   
 |    └── data_validation - contains the validation status file. 
 │  
-├── images      - contains images used in this repository.
+├── images    - contains images used in this repository.
 │                 
 ├── research
-│    └── Text_Summarizer_Pegasus.ipynb - research notebooks to Train,evaluate and test Text Summarizer Pegasus model. 
-|     └── data_ingestion.ipynb - research notebook for data ingestion 
-|     └── data_validation.ipynb - reserach notebook for data validation 
-|── 
-|
+│    └── Text_Summarizer_Pegasus.ipynb - research notebooks to Train, evaluate and test Text Summarizer Pegasus model. 
+|    └── 01_data_ingestion.ipynb - pre-pipeline implementation notebook for data ingestion 
+|    └── 02_data_validation.ipynb - pre-pipeline implementation notebook for data validation 
+|    └── 03_data_transformation.ipynb - pre-pipeline implementation notebook for data transformation 
+|    └── 04_model_trainer.ipynb - pre-pipeline implementation notebook for model training 
 |
