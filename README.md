@@ -24,8 +24,11 @@ This project requires **Python 3.8** and the following Python libraries installe
 ```
 ├──  artifacts    - folder where data artifacts are stored 
 │    └── data_ingestion - contains the downloaded data files.   
-|    └── data_validation - contains the validation status file. 
-│  
+|    └── data_validation - contains the validation status file.
+|    └── data_transformation - contains the dataset after transformation.
+│    └── model_training - contains the trained model and tokenizer.
+|    └── model_evaluation - contains results of model evaluation as a CSV file.    
+├── config    - contains config YAML file which specifies Paths of required artifacts
 ├── images    - contains images used in this repository.
 │                 
 ├── research
@@ -34,4 +37,9 @@ This project requires **Python 3.8** and the following Python libraries installe
 |    └── 02_data_validation.ipynb - pre-pipeline implementation notebook for data validation 
 |    └── 03_data_transformation.ipynb - pre-pipeline implementation notebook for data transformation 
 |    └── 04_model_trainer.ipynb - pre-pipeline implementation notebook for model training 
+|    └── 05_model_trainer.ipynb - pre-pipeline implementation notebook for model evaluation
 |
+├── src/textSummarizer
+|          └── 
+|
+| 
