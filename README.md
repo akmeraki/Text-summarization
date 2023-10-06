@@ -2,14 +2,12 @@
 
 Text summarization is the process of shortening a set of data computationally, to create a subset that represents the most important or relevant information within the original content.
 
-<p align="center">
-<img src="https://github.com/akmeraki/Text-summarization/blob/7fe226703f69e1cc056cfba5e26d90fb5bc0cad2/images/b9bf06f6.png">
-</p>
+![Text Summarization](/images/b9bf06f6.png)
 
 ### Dependencies 
 
 This project requires **Python 3.8** and the following Python libraries installed: Please utilize the environment file to install related packages.
-
+https://github.com/akmeraki/Text-summarization/blob/7fe226703f69e1cc056cfba5e26d90fb5bc0cad2/images/b9bf06f6.png
 Libraries : 
 - [HuggingFace](https://huggingface.co/)
 - [Transformers](https://huggingface.co/docs/transformers/installation)
