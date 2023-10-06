@@ -40,6 +40,27 @@ This project requires **Python 3.8** and the following Python libraries installe
 |    └── 05_model_trainer.ipynb - pre-pipeline implementation notebook for model evaluation
 |
 ├── src/textSummarizer
-|          └── 
-|
-| 
+|          └── components
+|                └── data_ingestion.py
+|                └── data_transformation.py
+|                └── data_validation.py
+|                └── model_trainer.py
+|                └──
+|          └── config
+|               └── __init__.py
+|                └── configuration.py 
+|          └── constants
+|                └── __init__.py
+|          └── entity
+|                └── __init__.py
+|          └── logging
+|                └── __init__.py
+|          └── pipeline
+|                └── stage_01_data_ingestion.py
+|                └── stage_02_data_validation.py
+|                └── stage_03_data_transformation.py
+|                └── stage_04_model_training.py
+|                └── stage_05_model_evaluation.py
+|          └── utils
+|                └── common.py
+                      
