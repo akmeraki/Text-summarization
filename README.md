@@ -10,15 +10,29 @@ Text summarization is the process of shortening a set of data computationally, t
 
 This project requires **Python 3.8** and the following Python libraries installed: Please utilize the environment file to install related packages.
 
+Libraries : 
 - [HuggingFace](https://huggingface.co/)
 - [Transformers](https://huggingface.co/docs/transformers/installation)
 - [Transformers][sentencepiece](https://github.com/google/sentencepiece)
 - [sacrebleu](https://github.com/mjpost/sacrebleu)
 - [datasets](https://huggingface.co/docs/datasets/v1.15.1/tutorial.html)
+- [evaluate](https://huggingface.co/docs/evaluate/index)
 - [rouge_score](https://pypi.org/project/rouge-score/)
 
-### Table of Contents 
+### Model 
 
+[Pegasus-cnn_dailymail](https://huggingface.co/google/pegasus-cnn_dailymail)
+
+The Pegasus model was proposed in PEGASUS: [PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization](https://arxiv.org/pdf/1912.08777.pdf) by Jingqing Zhang, Yao Zhao, Mohammad Saleh and Peter J. Liu on Dec 18, 2019.
+
+(-) Pegasus’ pretraining task is intentionally similar to summarization: important sentences are removed/masked from an input document and are generated together as one output sequence from the remaining sentences, similar to an extractive summary.
+
+(-) Pegasus achieves SOTA summarization performance on all 12 downstream tasks, as measured by ROUGE and human eval.
+
+### Dataset 
+[samsum Dataset](https://huggingface.co/datasets/samsum)
+
+The SAMSum dataset contains about 16k messenger-like conversations with summaries. Conversations were created and written down by linguists fluent in English. Linguists were asked to create conversations similar to those they write on a daily basis, reflecting the proportion of topics of their real-life messenger convesations. 
 
 ### Folder Structure 
 ```
