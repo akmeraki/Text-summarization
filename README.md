@@ -13,7 +13,7 @@ This project requires **Python 3.8** and the following Python libraries installe
 Libraries : 
 - [HuggingFace](https://huggingface.co/)
 - [Transformers](https://huggingface.co/docs/transformers/installation)
-- [Transformers][sentencepiece](https://github.com/google/sentencepiece)
+- [Transformers sentencepiece](https://github.com/google/sentencepiece)
 - [sacrebleu](https://github.com/mjpost/sacrebleu)
 - [datasets](https://huggingface.co/docs/datasets/v1.15.1/tutorial.html)
 - [evaluate](https://huggingface.co/docs/evaluate/index)
