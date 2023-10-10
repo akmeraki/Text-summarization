@@ -34,6 +34,7 @@ The Pegasus model was proposed in PEGASUS: [PEGASUS: Pre-training with Extracted
 
 The SAMSum dataset contains about 16k messenger-like conversations with summaries. Conversations were created and written down by linguists fluent in English. Linguists were asked to create conversations similar to those they write on a daily basis, reflecting the proportion of topics of their real-life messenger conversations. 
  
+
 ### Folder Structure 
 ```
 ├──  artifacts    - folder where data artifacts are stored 
